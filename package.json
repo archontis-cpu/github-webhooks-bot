@@ -1,0 +1,28 @@
+{
+  "name": "node-js-tutorial",
+  "version": "1.0.0",
+  "description": "workshop",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "telegram",
+    "libuv",
+    "server"
+  ],
+  "author": "Volodymyr Rusynov <vrusynov@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
